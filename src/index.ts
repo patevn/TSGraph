@@ -10,7 +10,7 @@ const typeDefs = `
 
 const resolvers = {
   Query: {
-    hello: (_:any, { name }: any) => `HEllo ${name || 'World'}`,
+    hello: (_:any, { name }: any) => `Heeeello ${name || 'World'}`,
   },
 }
 
